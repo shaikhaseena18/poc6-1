@@ -6,7 +6,7 @@ pipeline {
 
         AWS_REGION = "ap-south-1"
 
-        ACCOUNT_ID = "YOUR_ACCOUNT_ID"
+        ACCOUNT_ID = "465630415789"
 
         ECR_REPO = "${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/devsecops-html-app"
 
