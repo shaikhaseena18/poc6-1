@@ -1,1 +1,10 @@
 
+replicaCount: 2
+
+image:
+  repository: 465630415789.dkr.ecr.ap-south-1.amazonaws.com/devsecops-html-app
+  tag: "1"
+
+service:
+  type: LoadBalancer
+  port: 80
